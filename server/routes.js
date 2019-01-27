@@ -15,7 +15,7 @@ router.get('/rooms', controller.rooms.get);
 router.post('/rooms', controller.rooms.post);
 
 // Handle options
-router.options("/*", function(req, res, next){
+router.options('/*', function(req, res, next) {
   res.send(200);
 });
 
